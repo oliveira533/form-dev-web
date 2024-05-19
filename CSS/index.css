@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #87b3ff;
+}
+
+.form{
+    background: #4075d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form-name-div, .form-dtbday-div, .form-mother-div, .form-sickness-div, .form-button-div{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+.form-social, .form-personal-data, .form-contat, .form-address-1, .form-address-2, .form-address-3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.form-sex-div, .form-rg-div, .form-email, .form-cep-div, .form-number-div, .form-city-div{
+    width: 50%;
+    padding-right: 5px;
+    margin:0;
+}
+
+.form-gender-div, .form-cns-div, .form-phone, .form-street-div, .form-bairro-div, .form-state-div{
+    width: 50%;
+    padding-left: 5px;
+    margin:0;
+}
+
+.form-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.form-button-div input{
+    width: 50%;
+}
+
+.form-button-clear{
+    margin-right: 3px;
+}
+
+.form-button-submit{
+    margin-left: 3px;
+}
+
+label{
+    font-size: 15px;
+}
+
+input{
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+select{
+    font-size:15;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+}

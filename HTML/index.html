@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Clinica</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/index.css">
+    </head>
+    <body>
+        <form class="form" id="form">
+            <h1 clas="title">Atendimento</h1>
+            <div class="form-name-div"> 
+                <label class="form-name">Nome<label/></br>
+                <input class="form-name-value" id="form-name-value" type="text" placeholder="Digite o nome do paciente"/>
+                    
+            </div> 
+
+            <div class="form-social">
+                <div class="form-sex-div">
+                    <label class="form-sex">Sexo<label/></br>
+                    <select class="form-sex-value" id="form-sex-value">
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="n">Prefiro não responder</option>
+                    </select>
+                </div>
+                <div class="form-gender-div">
+                    <label class="form-gender">Genêro<label/></br>
+                    <select class="form-gender-value" id="form-gender-value">
+                        <option value="mc">Masculino cisgênero</option>
+                        <option value="mt">Masculino transgênero</option>
+                        <option value="fc">Feminino cisgênero</option>
+                        <option value="ft">Feminino transgênero</option>
+                        <option value="gn">Gênero neutro</option>
+                        <option value="nb">Não-binário</option>
+                        <option value="a">Agênero</option>
+                        <option value="gq">Genderqueer</option>
+                        <option value="gq">two-spirit</option>
+                        <option value="n">Prefiro não responder</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-personal-data">
+                <div class="form-rg-div">
+                    <label class="form-rg">RG</label></br>
+                    <input class="form-rg-value" id="form-rg-value" placeholder="Digite o R.G. do paciente"/>
+                </div>
+                <div class="form-cns-div">
+                    <label class="form-cns">CNS</label></br>
+                    <input class="form-cns-value" id="form-cns-value" placeholder="Digite o cartão do SUS do paciente"/>
+                </div>
+            </div>
+
+            <div class="form-dtbday-div">
+                <label class="form-dtbday">Data de Nascimento</label></br>
+                <input class="form-dtbday-value" id="form-dtbday-value" type="date"/>
+            </div>
+
+            <div class="form-contat">
+                <div class="form-email">
+                    <label class="form-email">Email</label></br>
+                    <input class="form-email-value" id="form-email-value" type="email" placeholder="exemplo@exemplo.com"/>
+                </div>
+                <div class="form-phone">
+                    <label class="form-phone">Telefone</label></br>
+                    <input class="form-phone-value" id="form-phone-value" type="phone" placeholder="+55 (XX)XXXX-XXXX"/>
+                </div>
+            </div>
+
+            <div class="form-mother-div">
+                <label class="form-mother">Nome da mãe</label></br>
+                <input class="form-mother-value" id="form-mother-value" placeholder="Digite o nome da mãe"/>
+            </div>
+
+            <div class="form-address-1">
+                <div class="form-cep-div">
+                    <label class="form-cep">CEP</label></br>
+                    <input class="form-cep-value" id="form-cep-value" placeholder="0000-000"/>
+                </div>
+
+                <div class="form-street-div">
+                    <label class="form-street">Endereço</label></br>
+                    <input class="form-street-value" id="form-street-value" disabled/>
+                </div>
+            </div>
+
+            <div class="form-address-2">
+                <div class="form-number-div">
+                    <label class="form-number">Número e complemento</label></br>
+                    <input class="form-number-value" id="form-number-value"/>
+                </div>
+
+                <div class="form-bairro-div">
+                    <label class="form-bairro">Bairro</label></br>
+                    <input class="form-bairro-value" id="form-bairro-value" disabled/>
+                </div>
+            </div>
+
+            <div class="form-address-3">
+                <div class="form-city-div">
+                    <label class="form-city">Cidade</label></br>
+                    <input class="form-city-value" id="form-city-value" disabled/>
+                </div>
+
+                <div class="form-state-div">
+                    <label class="form-state">Estado</label></br>
+                    <input class="form-state-value" id="form-state-value" disabled/>
+                </div>
+            </div>
+
+            <div class="form-sickness-div">
+                <label class="form-sickness">Doença</label></br>
+                <select class="form-sickness-values" id="form-sickness-values">
+                    <option value="Nefrite">Nefrite</option>
+                    <option value="Conjutivite">Conjutivite</option>
+                    <option value="Renite">Renite</option>
+                    <option value="Asma">Asma</option>
+                    <option value="Tendinite">Tendinite</option>
+                    <option value="H1N1">H1N1</option>
+                    <option value="H1N3">H1N3</option>
+                    <option value="COVID-19">COVID-19</option>
+                </select>
+            </div>
+            <div class="form-button-div">
+                <input class="form-button-clear" id="form-button-clear" type="reset" value="limpar"/>
+                <input class="form-button-submit" id="form-button-submit" type="submit" value="enviar"/>
+            </div>
+        </form>      
+        <script src="" async defer></script>
+    </body>
+</html>
