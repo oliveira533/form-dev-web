@@ -11,7 +11,7 @@
             <h1 clas="title">Atendimento</h1>
             <div class="form-name-div"> 
                 <label class="form-name">Nome<label/></br>
-                <input class="form-name-value" id="form-name-value" type="text" placeholder="Digite o nome do paciente"/>
+                <input class="form-name-value" id="form-name-value" type="text" placeholder="Digite o nome do paciente" required/>
                     
             </div> 
 
@@ -44,17 +44,17 @@
             <div class="form-personal-data">
                 <div class="form-rg-div">
                     <label class="form-rg">RG</label></br>
-                    <input class="form-rg-value" id="form-rg-value" placeholder="Digite o R.G. do paciente"/>
+                    <input class="form-rg-value" id="form-rg-value" placeholder="Digite o R.G. do paciente" required/>
                 </div>
                 <div class="form-cns-div">
                     <label class="form-cns">CNS</label></br>
-                    <input class="form-cns-value" id="form-cns-value" placeholder="Digite o cartão do SUS do paciente"/>
+                    <input class="form-cns-value" id="form-cns-value" placeholder="Digite o cartão do SUS do paciente" required/>
                 </div>
             </div>
 
             <div class="form-dtbday-div">
                 <label class="form-dtbday">Data de Nascimento</label></br>
-                <input class="form-dtbday-value" id="form-dtbday-value" type="date"/>
+                <input class="form-dtbday-value" id="form-dtbday-value" type="date" required/>
             </div>
 
             <div class="form-contat">
@@ -64,19 +64,19 @@
                 </div>
                 <div class="form-phone">
                     <label class="form-phone">Telefone</label></br>
-                    <input class="form-phone-value" id="form-phone-value" type="phone" placeholder="+55 (XX)XXXX-XXXX"/>
+                    <input class="form-phone-value" id="form-phone-value" type="phone" placeholder="+55 (XX)XXXXX-XXXX"pattern="\+55 \(\d{2}\) \d{5}-\d{4}" required/>
                 </div>
             </div>
 
             <div class="form-mother-div">
                 <label class="form-mother">Nome da mãe</label></br>
-                <input class="form-mother-value" id="form-mother-value" placeholder="Digite o nome da mãe"/>
+                <input class="form-mother-value" id="form-mother-value" placeholder="Digite o nome da mãe" required/>
             </div>
 
             <div class="form-address-1">
                 <div class="form-cep-div">
                     <label class="form-cep">CEP</label></br>
-                    <input class="form-cep-value" id="form-cep-value" placeholder="0000-000"/>
+                    <input class="form-cep-value" id="form-cep-value" placeholder="0000-000" required/>
                 </div>
 
                 <div class="form-street-div">
@@ -88,7 +88,7 @@
             <div class="form-address-2">
                 <div class="form-number-div">
                     <label class="form-number">Número e complemento</label></br>
-                    <input class="form-number-value" id="form-number-value"/>
+                    <input class="form-number-value" id="form-number-value" required/>
                 </div>
 
                 <div class="form-bairro-div">
@@ -111,7 +111,7 @@
 
             <div class="form-sickness-div">
                 <label class="form-sickness">Doença</label></br>
-                <select class="form-sickness-values" id="form-sickness-values">
+                <select class="form-sickness-values" id="form-sickness-values"/>
                     <option value="Nefrite">Nefrite</option>
                     <option value="Conjutivite">Conjutivite</option>
                     <option value="Renite">Renite</option>
